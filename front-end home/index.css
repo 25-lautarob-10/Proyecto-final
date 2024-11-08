@@ -1,0 +1,82 @@
+/* .rubik-wet-paint-regular {
+    font-family: "Rubik Wet Paint", system-ui;
+    font-weight: 400;
+    font-style: normal;
+} */
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    font-family: 'Rubik Wet Paint';
+}
+
+.navbar  {
+    background-color: orange; 
+}
+
+
+/*seccion de categorias*/
+
+
+
+.categoryContainer > ul {
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    font-size: 16px;
+    border-bottom: 1px solid #999;
+    list-style: none;
+}
+
+.categoryContainer li > a {
+    color: black;
+}
+
+
+/* Menu section */
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;   
+}
+
+.navOculto {
+    background-color: orange;
+}
+
+h3 {
+    background-color: #fff;
+    font-size: 1em;
+    border-bottom: 1px solid #999;
+    padding: 10px;
+}
+
+#menuContainer {
+    position: relative;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px #666;
+    border-radius: 10 px;
+}
+
+.pizzas_grandes {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 25px;
+}
+
