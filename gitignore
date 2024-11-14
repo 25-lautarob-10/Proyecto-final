@@ -1,2 +1,9 @@
 git pull --rebase origin main
 git push origin main
+
+
+starsIcons {
+    <i class="fa-solid fa-star"></i> <!--ESTRELLA DESELECCIONADA-->
+    <i class="fa-regular fa-star"></i> <!--ESTRELLA SELECCIONADA-->
+    <i class="fa-solid fa-star-half-stroke"></i><!--MEDIA ESTRELLA-->
+}
