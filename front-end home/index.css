@@ -101,6 +101,20 @@ h3 {
 
 }
 
+.articulos  button {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f20;
+}
+
+.articulos a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
 .articulos > article {
     max-width: 150px;
     padding: 15px 10px;
@@ -111,7 +125,7 @@ h3 {
     align-items: center;
     text-align: center;
     gap: 10px;
-    background-color: #fff;
+    background-color: #f80;
     box-shadow: 0 0 5px #000;
     border-radius: 10px;
     font-size: 12px;
@@ -389,4 +403,250 @@ textarea {
 #creditos {
     font-size: 12px;
     text-align: center;
+}
+
+@media (min-width: 700px) and (max-width:1000px) {
+    #menu > article {
+        width: 70vw;
+        height: 200px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 15px black;
+
+    }
+
+    .reseñas {
+        width: 70%;
+        margin-top: 80px;
+        display: grid;
+        text-align: center;
+        gap: 10px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .formContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    form {
+        width: 80%;
+    }
+}
+
+@media (min-width:1000px) {
+    .mobileDesign {
+        display: none;
+    }
+    .desktopDesign {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*! HEADER */
+    .desktopHeader {
+        width: 100%;
+        height: max-content;
+    }
+
+    .desktopNav {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        height: 80px;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #f80;
+    }
+
+    .opcionesEscr__ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        list-style: none;
+        width: 70%;
+        margin: 0;
+    }
+    .carrito{
+        padding: 20px;
+    }
+
+    /*! MAIN */
+    .desktopMain{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        gap: 150px;
+    }
+
+    .somosDesktop {
+        width: 80%;
+        background-color: #f80;
+        padding: 25px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+
+    }
+    #somosTitulo{
+        background-color: transparent;
+        border: none;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .enlaces {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+        color: #fff;
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .enlaces a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px;
+        background-color: #f20;
+        border-radius: 10px;
+    }
+
+    .desktopOfertas {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .desktopOfertas h3 {
+        text-align: 25px;
+    }
+    .articulosDesktop{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        gap: 55px;
+        height: max-content;
+        justify-content: center;
+    }
+    .articulosDesktop article {
+        display: flex;
+        width: 150px;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        background-color: #f80;
+        border-radius: 10px;
+        padding: 15px;
+        align-items: center;
+    }
+
+    .articulosDesktop button {
+        background-color: #f20;
+        border: none;
+        
+    }
+
+    .articulosDesktop a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .desktopMenu {
+        width: 100%;
+        height: max-content;
+        align-items: center;
+        display: flex;
+        padding: 50px;
+        background-color: #f80;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .desktopMenu div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .desktopMenu article {
+        width: 100%;
+        height: 250px;
+        border-radius: 10px;
+        box-shadow: 0 0 5px black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .desktopMenu a {
+        width: 400px;
+        height: 250px;
+        position: relative;
+        margin-top: 20px;
+    }
+
+    .desktopMenu  img {
+        width: 398px;
+        height: 250px;
+        border-radius: 10px;
+    }
+
+    .desktopMenu h6 {
+        text-align: center;
+        font-size: 20px;
+
+    }
+
+    .desktopUbicacion {
+        width: 100%;
+        background-color: #f80;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .desktopFooter {
+        background-color: #f80;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .contacto_info {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .contacto_info div {
+        width: 50%;
+    }
+    
+    .redesD {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        gap: 20px;
+        justify-content: center;
+        font-size: 20px;
+    }
+    
+    #ubicacionDesktop {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
